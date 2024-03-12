@@ -1,4 +1,5 @@
 token.txt
+app.jar
 
 target/
 !.mvn/wrapper/maven-wrapper.jar

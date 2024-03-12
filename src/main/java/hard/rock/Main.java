@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, InterruptedException {
         String token = new String(Main.class.getResourceAsStream("/token.txt").readAllBytes(), StandardCharsets.UTF_8);
 
         JDABuilder builder = JDABuilder.createDefault(token)
