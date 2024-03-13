@@ -15,7 +15,7 @@ public class Main {
         .addEventListeners(new ReadyListener(), new MessageListener());
 
         //builder.setBulkDeleteSplittingEnabled(false);
-        builder.setActivity(Activity.watching("Duke Sex"));
+        builder.setActivity(Activity.customStatus("Being Talented"));
         builder.disableIntents(GatewayIntent.GUILD_PRESENCES, GatewayIntent.GUILD_MESSAGE_TYPING);
         builder.enableIntents(GatewayIntent.MESSAGE_CONTENT);
         builder.setLargeThreshold(50);

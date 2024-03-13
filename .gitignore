@@ -1,6 +1,8 @@
 token.txt
 app.jar
 
+duke-bot*
+
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
