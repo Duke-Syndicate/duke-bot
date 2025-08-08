@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>hard.rock</groupId>
+    <groupId>org.dukesyndicate</groupId>
     <artifactId>duke-bot</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -59,4 +59,12 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Duke-Syndicate Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/Duke-Syndicate/duke-bot</url>
+        </repository>
+    </distributionManagement>
 </project>
