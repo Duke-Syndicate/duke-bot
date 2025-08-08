@@ -5,7 +5,7 @@ The bot for the Duke Syndicate discord.
 ```yaml 
 services:
   bot:
-    build: .
+    image: ghcr.io/duke-syndicate/duke-bot:main
     environment:
       - BOT_TOKEN=token_goes_here
 ```
