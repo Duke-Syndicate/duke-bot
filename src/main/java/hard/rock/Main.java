@@ -4,12 +4,9 @@ import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Activity;
 import net.dv8tion.jda.api.requests.GatewayIntent;
 
-import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-
 public class Main {
-    public static void main(String[] args) throws IOException, InterruptedException {
-        String token = new String(Main.class.getResourceAsStream("/token.txt").readAllBytes(), StandardCharsets.UTF_8);
+    public static void main(String[] args) {
+        String token = System.getenv("BOT_TOKEN");
 
         JDABuilder builder = JDABuilder.createDefault(token)
         .addEventListeners(new ReadyListener(), new MessageListener());
