@@ -1,4 +1,4 @@
-package hard.rock;
+package org.dukesyndicate;
 
 import net.dv8tion.jda.api.entities.Message;
 import net.dv8tion.jda.api.entities.channel.unions.MessageChannelUnion;

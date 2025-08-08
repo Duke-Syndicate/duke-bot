@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>hard.rock</groupId>
-    <artifactId>untitled</artifactId>
+    <artifactId>duke-bot</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -52,7 +52,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>libraries/</classpathPrefix>
-                            <mainClass>hard.rock.Main</mainClass>
+                            <mainClass>org.dukesyndicate.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
